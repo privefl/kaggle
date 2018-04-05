@@ -26,3 +26,13 @@ unzip_files <- function(dir = "data", overwrite = FALSE) {
   
   invisible()
 }
+
+#' @inheritDotParams data.table::fread -data.table
+#'
+#' @inherit data.table::fread title description
+#' 
+#' @return A `data.frame`.
+#' @export
+#'
+fread2 <- function(...)
+  tibble::as_tibble(data.table::fread(..., data.table = FALSE))

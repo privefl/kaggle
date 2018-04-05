@@ -18,5 +18,5 @@ launch your  current R project
 (or any project if you use option \code{global = TRUE}).
 }
 \examples{
-kaggle::add_pkg_to_rprofile("kaggle")
+kaggler::add_pkg_to_rprofile("kaggler")
 }

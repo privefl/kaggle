@@ -1,4 +1,4 @@
 
 if (interactive()) {
-  suppressMessages(require(kaggle))
+  suppressMessages(require(kaggler))
 }

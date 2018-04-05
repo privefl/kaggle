@@ -17,6 +17,8 @@ Basically, submit 5 labels for each entry, with most certain predictions coming 
 
 - Siamese networks, wtfit?
 
+- Try `h2o.automl`
+
 ## Remarks
 
 - There are also many duplicates of the training data images in the test set, over 2000 or so.

@@ -3,7 +3,7 @@
 Kaggle challenges: helper package + code
 
 
-## Kaggle API
+## [Kaggle API](https://github.com/Kaggle/kaggle-api)
 
 ```r
 # Update pip

@@ -24,5 +24,5 @@ kaggle_data <- function(competition = NULL, dir = "data", cmd_add = "") {
     system_glue("kaggle competitions download -c {competition} -p {dir} {cmd_add}")
   }
   
-  invisible(NULL)
+  invisible()
 }

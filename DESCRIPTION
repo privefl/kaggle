@@ -13,4 +13,5 @@ Depends:
     tidyverse,
     data.table
 Imports: 
-    glue
+    glue,
+    utils

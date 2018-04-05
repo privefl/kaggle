@@ -10,7 +10,7 @@
 #' 
 #' @export
 #' @examples
-#' kaggle::add_pkg_to_rprofile("kaggle")
+#' kaggler::add_pkg_to_rprofile("kaggler")
 add_pkg_to_rprofile <- function(pkg, global = FALSE) {
   
   file <- `if`(global, "~/.Rprofile", ".Rprofile")

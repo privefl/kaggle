@@ -6,6 +6,8 @@ print_glue <- function(...) {
   print(glue::glue(..., .envir = parent.frame()))
 }
 
+dir_create <- function(dir) if (!dir.exists(dir)) dir.create(dir)
+
 #' Unzip files
 #' 
 #' Unzip all files in a directory.
@@ -17,6 +19,8 @@ print_glue <- function(...) {
 #' @export
 #'
 unzip_files <- function(dir = "data", overwrite = FALSE) {
+  
+  dir_create(dir)
   
   zip_files <- list.files(dir, pattern = "\\.zip$", full.names = TRUE)
   purrr::walk(zip_files, ~{

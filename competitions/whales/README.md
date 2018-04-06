@@ -11,6 +11,16 @@ Basically, submit 5 labels for each entry, with most certain predictions coming 
 
 ## Strategies
 
+### Cleaning
+
+- Remove weird images?
+
+- Remove duplicates?
+
+- Remove whales with not enough entries?
+
+### Training
+
 - Classification problem? Reported as bad
 
 - Answer "have I seen this whale before?" 
@@ -18,6 +28,7 @@ Basically, submit 5 labels for each entry, with most certain predictions coming 
 - Siamese networks, wtfit?
 
 - Try `h2o.automl`
+
 
 ## Remarks
 

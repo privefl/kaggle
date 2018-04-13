@@ -48,4 +48,3 @@ ggplot(data2, aes(n, fill = as.factor(is_attributed))) +
   geom_density(alpha = 0.4) + 
   xlim(NA, 200)
 
-data2 %>%

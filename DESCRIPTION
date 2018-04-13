@@ -11,6 +11,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1.9000
 Imports: 
     glue,
-    utils,
     data.table,
     tibble

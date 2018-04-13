@@ -67,7 +67,7 @@ fread2 <- function(...) {
 to_csv <- function(x, file) {
   
   if (is.data.frame(x) && (names(x) != paste0("V", seq_along(x)))) {
-    utils::write.csv(x, file = file, quote = FALSE, row.names = FALSE)
+    data.table::fwrite(x, file = file, quote = FALSE, row.names = FALSE)
   } else {
     stop("'x' must be a named data frame.", call. = FALSE) 
   }

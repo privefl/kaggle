@@ -45,6 +45,8 @@ add_pkg_to_rprofile <- function(pkg, global = FALSE) {
 #' 
 add_competition_to_rprofile <- function(competition) {
   
+  add_pkg_to_rprofile(pkg = "kaggler", global = FALSE)
+  
   file <- ".Rprofile"
   
   if (file.exists(file)) {
